@@ -1,0 +1,69 @@
+@use 'sass:math';
+
+/* СOLORS
+------------------------ */
+
+$colors: (
+  'primary': #f3f6f8,
+  'secondary': #dededd,
+  'secondary-alt': #e9ecef,
+
+  'text': #333333,
+  'text-alt': #76787d,
+
+  'bg': #e31f24,
+
+  'surface': #f3f6f8,
+  'surface-alt': #e0e0e0,
+
+  'alert': #bd1b1b,
+  'success': #7fc75e,
+
+  'whte': #fff,
+  'blck': #000
+);
+
+/* EFFECTS
+------------------------ */
+$tr-1: ease;
+$tr-2: ease-in;
+$tr-3: ease-out;
+$tr-4: ease-in-out;
+$time: 0.3s;
+$tr: ease-in;
+$time-1: 0.1s;
+$time-2: 0.2s;
+$time-3: 0.3s;
+$time-4: 0.4s;
+$time-5: 0.5s;
+$time-10: 1s;
+
+/* FONTS
+------------------------- */
+$font-primary: 'montserrat', 'Arial', sans-serif;
+
+/* GRID
+------------------------- */
+$max-width: 1366px;
+$max-width-text: 760px;
+
+/* WRAPPER PADDINGS
+------------------------- */
+$pad-s: 10px;
+$pad-m: 30px;
+$pad-l: 80px;
+$pad-xl: 100px;
+
+/* BREAKPOINTS
+------------------------- */
+$xs: 480px;
+$s: 620px;
+$m: 768px;
+$ms: 1024px;
+$mt: 1200px;
+$l: 1366px;
+$ls: 1440px;
+$lt: 1536px;
+$xl: 1920px;
+$xls: 2560px;
+$retina: '(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 1.5dppx),(min-resolution: 144dpi)';
